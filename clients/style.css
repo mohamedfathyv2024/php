@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+form {
+    width: 450px;
+    border: 2px solid #a38282;
+    padding: 33px;
+    /* background-color:#fff ; */
+    border-bottom: 15px;
+}
+
+input {
+    display: block;
+    border: 2px solid #cf7f7f;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
